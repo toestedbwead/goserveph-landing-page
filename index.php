@@ -94,7 +94,7 @@ include 'header.php';
 <div class="fixed bottom-4 right-4 z-40">
     <div class="bg-white rounded-lg shadow-lg p-3 flex space-x-2">
         <a href="?lang=en" class="px-3 py-1.5 <?php echo $language === 'en' ? 'bg-primary text-white' : 'bg-gray-100 text-gray-700'; ?> rounded-md text-sm font-medium transition-colors duration-200">
-            EN
+            LEI
         </a>
         <a href="?lang=fil" class="px-3 py-1.5 <?php echo $language === 'fil' ? 'bg-primary text-white' : 'bg-gray-100 text-gray-700'; ?> rounded-md text-sm font-medium transition-colors duration-200">
             FIL
