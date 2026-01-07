@@ -1,7 +1,9 @@
 <?php
 // Caloocan City Portal Configuration
 define('PORTAL_NAME', 'GoServePH Service Portal');
-define('CITY_NAME', 'GoServePH');
+define('CITY_NAME', 'Caloocan City');
+define('EIS_NAME', 'GoServePH');
+define('EIS_SLOGAN', 'Abot-Kamay mo ang Serbisyong Publiko');
 define('BASE_URL', 'http://localhost/caloocan-portal');
 
 // CSS Classes for EIS Design System
@@ -25,14 +27,14 @@ $system_urls = [
     'assets' => 'https://public-asset.goserveph.com'
 ];
 
-// Add to your config.php
+// System Logos Configuration
 $system_logos = [
     'citizen' => 'assets/icons/citizen-logo.png',
     'permits' => 'assets/icons/default-icon.jpg',
     'social' => 'assets/icons/ssm-logo.png',
     'health' => 'assets/icons/default-icon.jpg',
-    'education' => 'assets/icons/default-icon.jpg',
-    'drrm' => 'assets/icons/default-icon.jpg',
+    'education' => 'assets/icons/education-logo.jpg',
+    'drrm' => 'assets/icons/drrm-logo.png',
     'urban' => 'assets/icons/default-icon.jpg',
     'revenue' => 'assets/icons/default-icon.jpg',
     'transport' => 'assets/icons/default-icon.jpg',

@@ -43,13 +43,13 @@
                 <div class="flex items-center space-x-2 sm:space-x-3">
                     <img src="assets/images/GSM_logo.png" alt="GoServePh Logo" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 object-contain">
                     <div>
-                        <h1 class="text-sm sm:text-lg md:text-xl font-bold text-primary"><?php echo CITY_NAME; ?></h1>
-                        <p class="text-xs sm:text-sm text-primary opacity-90">Abot-Kamay mo ang Serbisyong Publiko</p>
+                        <h1 class="text-sm sm:text-lg md:text-xl font-bold text-primary"><?php echo EIS_NAME; ?></h1>
+                        <p class="text-xs sm:text-sm text-secondary opacity-90"><?php echo EIS_SLOGAN; ?></p>
                     </div>
                 </div>
 
                 <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="md:hidden text-white p-2">
+                <button id="mobile-menu-btn" class="md:hidden text-gray-700 p-2">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
@@ -57,17 +57,17 @@
 
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
-                    <a href="index.php" class="text-primary hover:text-secondary font-medium">Home</a>
-                    <a href="#systems" class="text-primary hover:text-secondary font-medium">Systems</a>
+                    <a href="index.php" class="text-gray-700 hover:text-secondary font-medium">Home</a>
+                    <a href="#systems" class="text-gray-700 hover:text-secondary font-medium">Systems</a>
                     
                     <?php if (SSO_ENABLED): ?>
                         <!-- SSO Login Button (Phase 2) -->
-                        <a href="<?php echo SSO_ENDPOINT; ?>" class="bg-white hover:bg-gray-100 text-primary px-4 py-2 rounded-lg font-medium">
+                        <a href="<?php echo SSO_ENDPOINT; ?>" class="bg-primary hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium">
                             Single Sign-On
                         </a>
                     <?php else: ?>
                         <!-- Current Login Buttons (Phase 1) -->
-                        <a href="login.php" class="bg-white hover:bg-secondary hover:text-white text-primary px-4 py-2 rounded-lg font-medium">
+                        <a href="login.php" class="bg-primary hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium">
                             Login
                         </a>
                     <?php endif; ?>

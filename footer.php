@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="text-center text-gray-500 text-sm pt-6 border-t border-gray-800">
-                &copy; <?php echo date('Y'); ?> <?php echo CITY_NAME; ?>. Version 1.0
+                &copy; <?php echo date('Y'); ?> <?php echo EIS_NAME; ?>. Version 1.0
             </div>
         </div>
     </footer>
