@@ -15,15 +15,15 @@ define('CSS_INPUT', 'input-modern');
 
 // System URLs - UPDATE THESE WITH REAL URLs
 $system_urls = [
-    'citizen' => 'https://citizen-system.caloocan.gov.ph',
-    'permits' => 'https://permits-system.caloocan.gov.ph',
-    'social' => 'https://social-services.caloocan.gov.ph',
-    'health' => 'https://health-system.caloocan.gov.ph',
-    'education' => 'https://education-system.caloocan.gov.ph',
-    'drrm' => 'https://drrm-system.caloocan.gov.ph',
-    'urban' => 'https://urban-planning.caloocan.gov.ph',
-    'revenue' => 'https://treasury-system.caloocan.gov.ph',
-    'transport' => 'https://transport-system.caloocan.gov.ph',
+    'citizen' => 'https://citizen.goserveph.com',
+    'permits' => 'https://e-plms.goserveph.com',
+    'social' => 'https://social.goserveph.com',
+    'health' => 'https://health.goserveph.com',
+    'education' => 'https://educ.goserveph.com',
+    'drrm' => 'https://disaster.goserveph.com',
+    'urban' => 'https://urbanplanning.goserveph.com',
+    'revenue' => 'https://revenuetreasury.goserveph.com',
+    'transport' => 'https://tmm.goserveph.com',
     'assets' => 'https://public-asset.goserveph.com'
 ];
 
