@@ -13,7 +13,6 @@ define('CSS_PRIMARY_BTN', 'btn-primary glow-on-hover');
 define('CSS_SECONDARY_BTN', 'btn-secondary');
 define('CSS_INPUT', 'input-modern');
 
-// System URLs - UPDATE THESE WITH REAL URLs
 $system_urls = [
     'citizen' => 'https://citizen.goserveph.com',
     'permits' => 'https://e-plms.goserveph.com',
@@ -30,14 +29,14 @@ $system_urls = [
 // System Logos Configuration
 $system_logos = [
     'citizen' => 'assets/icons/citizen-logo.png',
-    'permits' => 'assets/icons/default-icon.jpg',
+    'permits' => 'assets/icons/permits-logo.png',
     'social' => 'assets/icons/ssm-logo.png',
-    'health' => 'assets/icons/default-icon.jpg',
+    'health' => 'assets/icons/health-logo.png',
     'education' => 'assets/icons/education-logo.jpg',
     'drrm' => 'assets/icons/drrm-logo.png',
-    'urban' => 'assets/icons/default-icon.jpg',
-    'revenue' => 'assets/icons/default-icon.jpg',
-    'transport' => 'assets/icons/default-icon.jpg',
+    'urban' => 'assets/icons/urban-logo.png',
+    'revenue' => 'assets/icons/revenue-logo.png',
+    'transport' => 'assets/icons/transport-logo.png',
     'assets' => 'assets/icons/pafm-logo.png',
 ];
 
