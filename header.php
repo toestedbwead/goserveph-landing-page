@@ -60,17 +60,7 @@
                     <a href="index.php" class="text-gray-700 hover:text-secondary font-medium">Home</a>
                     <a href="#systems" class="text-gray-700 hover:text-secondary font-medium">Systems</a>
                     
-                    <?php if (SSO_ENABLED): ?>
-                        <!-- SSO Login Button (Phase 2) -->
-                        <a href="<?php echo SSO_ENDPOINT; ?>" class="bg-primary hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium">
-                            Single Sign-On
-                        </a>
-                    <?php else: ?>
-                        <!-- Current Login Buttons (Phase 1) -->
-                        <a href="login.php" class="bg-primary hover:bg-green-600 text-white px-4 py-2 rounded-lg font-medium">
-                            Login
-                        </a>
-                    <?php endif; ?>
+                    <!-- login / registration button is supposed to be here -->
                 </div>
             </div>
         </div>
