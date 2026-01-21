@@ -2,7 +2,7 @@
 // register.php - main entry point
 
 require_once 'config.php';
-require_once 'includes/db.php';
+require_once 'includes/database.php';
 
 // Handle form submission (include processing logic)
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
