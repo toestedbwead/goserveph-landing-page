@@ -59,8 +59,9 @@
                 <div class="hidden md:flex items-center space-x-4 lg:space-x-6">
                     <a href="index.php" class="text-gray-700 hover:text-secondary font-medium">Home</a>
                     <a href="#systems" class="text-gray-700 hover:text-secondary font-medium">Systems</a>
-                    
-                    <!-- login / registration button is supposed to be here -->
+                    <a href="register.php" class="btn-primary px-5 py-2 rounded-lg text-white font-medium hover:opacity-90 transition">
+                        Register
+                    </a>
                 </div>
             </div>
         </div>
