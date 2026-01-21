@@ -132,8 +132,5 @@
                 <p>This Agreement and all incorporated policies constitute the entire agreement between you and GoServePH.</p>
             </div>
         </div>
-        <div class="border-t px-6 py-4 flex justify-end">
-            <button type="button" id="closeTermsBottom" class="px-6 py-3 bg-custom-secondary text-white rounded-lg">Close</button>
-        </div>
     </div>
 </div>

@@ -72,8 +72,6 @@
                 <p>We reserve the right to suspend your Account or the Services if necessary to maintain system integrity and security, or to prevent harm. You waive any right to claim losses that result from a Breach or any action we take to prevent harm.</p>
             </div>
         </div>
-        <div class="border-t px-6 py-4 flex justify-end">
-            <button type="button" id="closeTermsBottom" class="px-6 py-3 bg-custom-secondary text-white rounded-lg">Close</button>
-        </div>
+
     </div>
 </div>
