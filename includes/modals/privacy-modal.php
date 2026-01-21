@@ -1,11 +1,10 @@
-<div id="termsModal" class="fixed inset-0 bg-black/50 hidden flex items-center justify-center p-4 z-50">
+<div id="privacyModal" class="fixed inset-0 bg-black/50 hidden flex items-center justify-center p-4 z-50">
     <div class="bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[85vh] overflow-y-auto">
         <div class="sticky top-0 bg-white border-b px-6 py-4 flex items-center justify-between z-10">
-            <h3 class="text-xl font-semibold text-custom-secondary">Terms of Use</h3>
-            <button type="button" id="closeTerms" class="text-gray-600 hover:text-gray-800 text-2xl"><i class="fas fa-times"></i></button>
+            <h3 class="text-xl font-semibold text-custom-secondary">GoServePH Data Privacy Policy</h3>
+            <button type="button" id="closePrivacy" class="text-gray-600 hover:text-gray-800 text-2xl"><i class="fas fa-times"></i></button>
         </div>
         <div class="px-6 py-6 text-sm leading-6 text-gray-700">
-            <!-- Paste your FULL Terms of Use content here -->
             <p><strong>Protecting the information you and your users handle through our system is our highest priority.</strong> This policy outlines how GoServePH manages, secures, and uses your data.</p>
                 <h4 class="font-semibold">1. How We Define and Use Data</h4>
                 <p>In this policy, we define the types of data that flow through the GoServePH system:</p>
