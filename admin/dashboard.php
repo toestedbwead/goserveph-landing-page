@@ -3,7 +3,7 @@ session_start();
 require_once '../includes/database.php';
 
 if (!isset($_SESSION['logged_in']) || $_SESSION['role'] !== 'superadmin') {
-    header("Location: login.php");
+    header("Location: index.php");
     exit;
 }
 
