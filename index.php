@@ -50,7 +50,6 @@ include 'header.php';
         <!-- System Cards Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             <?php
-            // Render all systems dynamically
             foreach ($all_systems as $system) {
                 $url = $system_urls[$system['id']] ?? '#';
                 echo render_system_card($system, $url, $t['access_system']);

@@ -4,7 +4,6 @@
 require_once 'config.php';
 require_once 'includes/database.php';
 
-// Handle form submission (include processing logic)
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     require_once 'includes/register-processing.php';
 }
@@ -47,7 +46,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php include 'includes/footer.php'; ?>
 
     <?php
-    // Include modals at the end of body
     include 'includes/modals/terms-modal.php';
     include 'includes/modals/privacy-modal.php';
     ?>
