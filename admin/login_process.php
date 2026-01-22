@@ -3,7 +3,7 @@ session_start();
 require_once '../includes/database.php';
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header("Location: login.php");
+    header("Location: index.php");
     exit;
 }
 
@@ -12,7 +12,7 @@ $password = $_POST['password'] ?? '';
 
 if (empty($email) || empty($password)) {
     $_SESSION['admin_error'] = "Email and password are required.";
-    header("Location: login.php");
+    header("Location: index.php");
     exit;
 }
 
@@ -31,7 +31,7 @@ if ($stmt->num_rows === 1 && $role === 'superadmin' && password_verify($password
     exit;
 } else {
     $_SESSION['admin_error'] = "Invalid credentials or not authorized as superadmin.";
-    header("Location: login.php");
+    header("Location: index.php");
     exit;
 }
 
